@@ -68,8 +68,8 @@ System.out.println("str1.equals(str2)의 결과: " + (str1.equals(str2))); // tr
 // 기준 문자열.equals("비교 문자열") => 값이 일치하면 true, 불일치하면 false 반환
 ```
 
-📌 **중요한 개념**
-1️⃣ `==` → **객체의 참조(메모리 주소)**를 비교함  
+📌 **중요한 개념**  
+1️⃣ `==` → **객체의 참조(메모리 주소)**를 비교함   
 2️⃣ `equals()` → **객체의 내용(값)**을 비교함  
 3️⃣ `"abc"` 리터럴은 **String Pool에서 재사용됨**  
 4️⃣ `new String("abc")`는 **Heap 메모리에 새로운 객체를 생성함**  
@@ -79,8 +79,8 @@ System.out.println("str1.equals(str2)의 결과: " + (str1.equals(str2))); // tr
 
 ---
 
-## 🎯 정리
-1️⃣ **String은 불변 객체**이며, 문자열을 변경하면 **새로운 객체가 생성됨**.  
+## 🎯 정리  
+1️⃣ **String은 불변 객체**이며, 문자열을 변경하면 **새로운 객체가 생성됨**.   
 2️⃣ **String은 String Pool을 활용하여 메모리 절약 가능**.  
 3️⃣ **문자열 변경이 많으면 `StringBuilder` 또는 `StringBuffer`를 사용하는 것이 성능상 유리함**.  
 4️⃣ **주요 메서드:** `length()`, `charAt()`, `equals()`, `substring()`, `replace()`, `split()` 등.  
