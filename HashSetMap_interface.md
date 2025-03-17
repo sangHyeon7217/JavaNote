@@ -47,7 +47,7 @@ public class HashSetExample {
 }
 
 ```
-# HashMap 인터페이스 설명
+
 
 ##  HashMap이란?
 `HashMap`은 **Map 인터페이스**를 구현한 자료구조이며, **키(key)와 값(value)의 쌍**으로 데이터를 저장합니다.  
