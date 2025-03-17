@@ -1,4 +1,4 @@
-A# **HashSet과 HashMap 인터페이스 설명**
+**HashSet과 HashMap 인터페이스 설명**
 
 ## **1. HashSet**
 ### ✅ **HashSet이란?**
@@ -46,7 +46,7 @@ public class HashSetExample {
     }
 }
 
-
+```
 # HashMap 인터페이스 설명
 
 ## 1. HashMap이란?
@@ -128,7 +128,5 @@ static class Node<K,V> {
 ## 6. 결론
 - **`HashMap`**: 키-값 쌍 저장 (빠른 검색 가능).
 - **순서를 보장하지 않으며, 빠른 데이터 조회와 검색이 가능**.
-
-
 
 
